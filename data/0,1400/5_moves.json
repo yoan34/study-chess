@@ -1,0 +1,2480 @@
+{
+    "e2e4,e7e5,f2f4,f7f6,f4e5": {
+        "moves": [
+            {
+                "total_games": 112948,
+                "freq": 93.25,
+                "white": 72.7,
+                "black": 25.07,
+                "draws": 2.23,
+                "uci": "f6e5",
+                "averageRating": 1377
+            },
+            {
+                "total_games": 2386,
+                "freq": 1.97,
+                "white": 56.5,
+                "black": 41.03,
+                "draws": 2.47,
+                "uci": "b8c6",
+                "averageRating": 1424
+            },
+            {
+                "total_games": 1952,
+                "freq": 1.61,
+                "white": 56.71,
+                "black": 39.86,
+                "draws": 3.43,
+                "uci": "d8e7",
+                "averageRating": 1458
+            },
+            {
+                "total_games": 1254,
+                "freq": 1.04,
+                "white": 59.01,
+                "black": 37.48,
+                "draws": 3.51,
+                "uci": "d7d6",
+                "averageRating": 1311
+            },
+            {
+                "total_games": 677,
+                "freq": 0.56,
+                "white": 61.45,
+                "black": 36.34,
+                "draws": 2.22,
+                "uci": "f8c5",
+                "averageRating": 1364
+            },
+            {
+                "total_games": 544,
+                "freq": 0.45,
+                "white": 63.79,
+                "black": 32.9,
+                "draws": 3.31,
+                "uci": "g7g6",
+                "averageRating": 1428
+            },
+            {
+                "total_games": 328,
+                "freq": 0.27,
+                "white": 62.5,
+                "black": 35.67,
+                "draws": 1.83,
+                "uci": "f6f5",
+                "averageRating": 1288
+            },
+            {
+                "total_games": 305,
+                "freq": 0.25,
+                "white": 58.69,
+                "black": 38.03,
+                "draws": 3.28,
+                "uci": "d7d5",
+                "averageRating": 1315
+            },
+            {
+                "total_games": 254,
+                "freq": 0.21,
+                "white": 53.54,
+                "black": 42.13,
+                "draws": 4.33,
+                "uci": "c7c6",
+                "averageRating": 1276
+            },
+            {
+                "total_games": 206,
+                "freq": 0.17,
+                "white": 59.71,
+                "black": 37.86,
+                "draws": 2.43,
+                "uci": "g8e7",
+                "averageRating": 1320
+            },
+            {
+                "total_games": 164,
+                "freq": 0.14,
+                "white": 70.73,
+                "black": 26.83,
+                "draws": 2.44,
+                "uci": "f8e7",
+                "averageRating": 1326
+            },
+            {
+                "total_games": 101,
+                "freq": 0.08,
+                "white": 62.38,
+                "black": 37.62,
+                "draws": 0.0,
+                "uci": "h7h5",
+                "averageRating": 1433
+            }
+        ],
+        "count": 1,
+        "total_game_move": 121119,
+        "name": {
+            "eco": "C30",
+            "name": "King's Gambit"
+        }
+    },
+    "e2e4,e7e5,f2f4,b8c6,g1f3": {
+        "moves": [
+            {
+                "total_games": 1457164,
+                "freq": 35.56,
+                "white": 55.24,
+                "black": 42.33,
+                "draws": 2.43,
+                "uci": "e5f4",
+                "averageRating": 1456
+            },
+            {
+                "total_games": 1387525,
+                "freq": 33.86,
+                "white": 52.59,
+                "black": 44.6,
+                "draws": 2.81,
+                "uci": "d7d6",
+                "averageRating": 1484
+            },
+            {
+                "total_games": 415174,
+                "freq": 10.13,
+                "white": 50.85,
+                "black": 46.87,
+                "draws": 2.28,
+                "uci": "f8c5",
+                "averageRating": 1488
+            },
+            {
+                "total_games": 246935,
+                "freq": 6.03,
+                "white": 56.79,
+                "black": 40.84,
+                "draws": 2.37,
+                "uci": "g8f6",
+                "averageRating": 1409
+            },
+            {
+                "total_games": 192016,
+                "freq": 4.69,
+                "white": 60.12,
+                "black": 37.39,
+                "draws": 2.49,
+                "uci": "f7f6",
+                "averageRating": 1423
+            },
+            {
+                "total_games": 150891,
+                "freq": 3.68,
+                "white": 49.53,
+                "black": 47.86,
+                "draws": 2.61,
+                "uci": "d7d5",
+                "averageRating": 1481
+            },
+            {
+                "total_games": 102912,
+                "freq": 2.51,
+                "white": 60.96,
+                "black": 36.62,
+                "draws": 2.42,
+                "uci": "f8d6",
+                "averageRating": 1451
+            },
+            {
+                "total_games": 51648,
+                "freq": 1.26,
+                "white": 47.58,
+                "black": 50.38,
+                "draws": 2.04,
+                "uci": "f7f5",
+                "averageRating": 1483
+            },
+            {
+                "total_games": 36331,
+                "freq": 0.89,
+                "white": 54.29,
+                "black": 43.22,
+                "draws": 2.49,
+                "uci": "d8f6",
+                "averageRating": 1476
+            },
+            {
+                "total_games": 22763,
+                "freq": 0.56,
+                "white": 55.81,
+                "black": 41.59,
+                "draws": 2.61,
+                "uci": "d8e7",
+                "averageRating": 1448
+            },
+            {
+                "total_games": 17759,
+                "freq": 0.43,
+                "white": 53.08,
+                "black": 44.68,
+                "draws": 2.24,
+                "uci": "f8e7",
+                "averageRating": 1500
+            },
+            {
+                "total_games": 16938,
+                "freq": 0.41,
+                "white": 57.7,
+                "black": 39.95,
+                "draws": 2.35,
+                "uci": "f8b4",
+                "averageRating": 1430
+            }
+        ],
+        "count": 3,
+        "total_game_move": 4098056,
+        "name": {
+            "eco": "C30",
+            "name": "King's Gambit Declined: Queen's Knight Defense"
+        }
+    },
+    "e2e4,d7d5,e4d5,d8d5,b1c3": {
+        "moves": [
+            {
+                "total_games": 11339340,
+                "freq": 37.82,
+                "white": 49.7,
+                "black": 46.55,
+                "draws": 3.75,
+                "uci": "d5d8",
+                "averageRating": 1456
+            },
+            {
+                "total_games": 7086664,
+                "freq": 23.63,
+                "white": 48.32,
+                "black": 48.47,
+                "draws": 3.21,
+                "uci": "d5a5",
+                "averageRating": 1457
+            },
+            {
+                "total_games": 4873620,
+                "freq": 16.25,
+                "white": 52.38,
+                "black": 43.76,
+                "draws": 3.86,
+                "uci": "d5e6",
+                "averageRating": 1382
+            },
+            {
+                "total_games": 3417345,
+                "freq": 11.4,
+                "white": 55.02,
+                "black": 40.91,
+                "draws": 4.06,
+                "uci": "d5e5",
+                "averageRating": 1341
+            },
+            {
+                "total_games": 2047342,
+                "freq": 6.83,
+                "white": 50.15,
+                "black": 46.34,
+                "draws": 3.51,
+                "uci": "d5d6",
+                "averageRating": 1442
+            },
+            {
+                "total_games": 409396,
+                "freq": 1.37,
+                "white": 55.0,
+                "black": 41.57,
+                "draws": 3.43,
+                "uci": "d5d7",
+                "averageRating": 1346
+            },
+            {
+                "total_games": 237809,
+                "freq": 0.79,
+                "white": 74.5,
+                "black": 23.12,
+                "draws": 2.38,
+                "uci": "d5c6",
+                "averageRating": 1259
+            },
+            {
+                "total_games": 162221,
+                "freq": 0.54,
+                "white": 61.73,
+                "black": 35.37,
+                "draws": 2.9,
+                "uci": "d5c5",
+                "averageRating": 1202
+            },
+            {
+                "total_games": 161196,
+                "freq": 0.54,
+                "white": 60.69,
+                "black": 36.12,
+                "draws": 3.19,
+                "uci": "d5d4",
+                "averageRating": 1215
+            },
+            {
+                "total_games": 130812,
+                "freq": 0.44,
+                "white": 59.17,
+                "black": 37.73,
+                "draws": 3.1,
+                "uci": "d5f5",
+                "averageRating": 1265
+            },
+            {
+                "total_games": 71066,
+                "freq": 0.24,
+                "white": 62.05,
+                "black": 35.0,
+                "draws": 2.95,
+                "uci": "d5g5",
+                "averageRating": 1241
+            },
+            {
+                "total_games": 47435,
+                "freq": 0.16,
+                "white": 75.58,
+                "black": 22.35,
+                "draws": 2.07,
+                "uci": "g8f6",
+                "averageRating": 1381
+            }
+        ],
+        "count": 3,
+        "total_game_move": 29984246,
+        "name": {
+            "eco": "B01",
+            "name": "Scandinavian Defense: Mieses-Kotroc Variation"
+        }
+    },
+    "e2e4,c7c5,g1f3,e7e6,d2d4": {
+        "moves": [
+            {
+                "total_games": 3287962,
+                "freq": 61.19,
+                "white": 46.41,
+                "black": 50.61,
+                "draws": 2.97,
+                "uci": "c5d4",
+                "averageRating": 1508
+            },
+            {
+                "total_games": 679707,
+                "freq": 12.65,
+                "white": 48.47,
+                "black": 48.09,
+                "draws": 3.45,
+                "uci": "d7d5",
+                "averageRating": 1482
+            },
+            {
+                "total_games": 577826,
+                "freq": 10.75,
+                "white": 52.7,
+                "black": 44.49,
+                "draws": 2.81,
+                "uci": "b8c6",
+                "averageRating": 1466
+            },
+            {
+                "total_games": 312173,
+                "freq": 5.81,
+                "white": 48.68,
+                "black": 48.63,
+                "draws": 2.69,
+                "uci": "a7a6",
+                "averageRating": 1491
+            },
+            {
+                "total_games": 179600,
+                "freq": 3.34,
+                "white": 50.65,
+                "black": 46.5,
+                "draws": 2.84,
+                "uci": "g8f6",
+                "averageRating": 1460
+            },
+            {
+                "total_games": 92178,
+                "freq": 1.72,
+                "white": 52.63,
+                "black": 44.27,
+                "draws": 3.1,
+                "uci": "b7b6",
+                "averageRating": 1465
+            },
+            {
+                "total_games": 68793,
+                "freq": 1.28,
+                "white": 43.42,
+                "black": 54.17,
+                "draws": 2.42,
+                "uci": "d8b6",
+                "averageRating": 1495
+            },
+            {
+                "total_games": 44572,
+                "freq": 0.83,
+                "white": 50.19,
+                "black": 47.01,
+                "draws": 2.8,
+                "uci": "h7h6",
+                "averageRating": 1476
+            },
+            {
+                "total_games": 44571,
+                "freq": 0.83,
+                "white": 54.05,
+                "black": 42.18,
+                "draws": 3.78,
+                "uci": "d7d6",
+                "averageRating": 1447
+            },
+            {
+                "total_games": 37288,
+                "freq": 0.69,
+                "white": 47.02,
+                "black": 50.54,
+                "draws": 2.43,
+                "uci": "d8c7",
+                "averageRating": 1510
+            },
+            {
+                "total_games": 24805,
+                "freq": 0.46,
+                "white": 51.84,
+                "black": 45.53,
+                "draws": 2.62,
+                "uci": "g7g6",
+                "averageRating": 1465
+            },
+            {
+                "total_games": 24280,
+                "freq": 0.45,
+                "white": 50.05,
+                "black": 47.25,
+                "draws": 2.7,
+                "uci": "f8e7",
+                "averageRating": 1481
+            }
+        ],
+        "count": 2,
+        "total_game_move": 5373755,
+        "name": {
+            "eco": "B40",
+            "name": "Sicilian Defense: French Variation"
+        }
+    },
+    "f2f4,d7d5,g1f3,c7c5,e2e3": {
+        "moves": [
+            {
+                "total_games": 139085,
+                "freq": 65.54,
+                "white": 52.44,
+                "black": 44.89,
+                "draws": 2.67,
+                "uci": "b8c6",
+                "averageRating": 1507
+            },
+            {
+                "total_games": 20849,
+                "freq": 9.82,
+                "white": 52.95,
+                "black": 44.24,
+                "draws": 2.81,
+                "uci": "e7e6",
+                "averageRating": 1482
+            },
+            {
+                "total_games": 17904,
+                "freq": 8.44,
+                "white": 52.03,
+                "black": 45.06,
+                "draws": 2.9,
+                "uci": "g8f6",
+                "averageRating": 1482
+            },
+            {
+                "total_games": 13671,
+                "freq": 6.44,
+                "white": 55.04,
+                "black": 41.86,
+                "draws": 3.09,
+                "uci": "c8g4",
+                "averageRating": 1491
+            },
+            {
+                "total_games": 4496,
+                "freq": 2.12,
+                "white": 52.11,
+                "black": 44.71,
+                "draws": 3.18,
+                "uci": "c8f5",
+                "averageRating": 1464
+            },
+            {
+                "total_games": 3746,
+                "freq": 1.77,
+                "white": 52.27,
+                "black": 45.19,
+                "draws": 2.54,
+                "uci": "d5d4",
+                "averageRating": 1415
+            },
+            {
+                "total_games": 3509,
+                "freq": 1.65,
+                "white": 51.92,
+                "black": 45.2,
+                "draws": 2.88,
+                "uci": "a7a6",
+                "averageRating": 1509
+            },
+            {
+                "total_games": 2647,
+                "freq": 1.25,
+                "white": 47.3,
+                "black": 49.87,
+                "draws": 2.83,
+                "uci": "g7g6",
+                "averageRating": 1508
+            },
+            {
+                "total_games": 1756,
+                "freq": 0.83,
+                "white": 54.5,
+                "black": 41.86,
+                "draws": 3.64,
+                "uci": "c5c4",
+                "averageRating": 1353
+            },
+            {
+                "total_games": 1692,
+                "freq": 0.8,
+                "white": 60.22,
+                "black": 37.12,
+                "draws": 2.66,
+                "uci": "b7b5",
+                "averageRating": 1405
+            },
+            {
+                "total_games": 1603,
+                "freq": 0.76,
+                "white": 52.46,
+                "black": 44.92,
+                "draws": 2.62,
+                "uci": "f7f6",
+                "averageRating": 1434
+            },
+            {
+                "total_games": 1259,
+                "freq": 0.59,
+                "white": 55.92,
+                "black": 41.38,
+                "draws": 2.7,
+                "uci": "b7b6",
+                "averageRating": 1460
+            }
+        ],
+        "count": 0,
+        "total_game_move": 212217,
+        "name": {
+            "eco": "A03",
+            "name": "Bird Opening: Dutch Variation"
+        }
+    },
+    "e2e4,c7c5,g1f3,e7e6,a2a3": {
+        "moves": [
+            {
+                "total_games": 21939,
+                "freq": 38.46,
+                "white": 47.24,
+                "black": 49.71,
+                "draws": 3.06,
+                "uci": "b8c6",
+                "averageRating": 1507
+            },
+            {
+                "total_games": 13098,
+                "freq": 22.96,
+                "white": 46.0,
+                "black": 50.96,
+                "draws": 3.04,
+                "uci": "a7a6",
+                "averageRating": 1514
+            },
+            {
+                "total_games": 10429,
+                "freq": 18.28,
+                "white": 46.52,
+                "black": 50.01,
+                "draws": 3.46,
+                "uci": "d7d5",
+                "averageRating": 1502
+            },
+            {
+                "total_games": 3877,
+                "freq": 6.8,
+                "white": 48.23,
+                "black": 48.28,
+                "draws": 3.48,
+                "uci": "g8f6",
+                "averageRating": 1489
+            },
+            {
+                "total_games": 2128,
+                "freq": 3.73,
+                "white": 46.01,
+                "black": 49.62,
+                "draws": 4.37,
+                "uci": "d7d6",
+                "averageRating": 1504
+            },
+            {
+                "total_games": 1064,
+                "freq": 1.87,
+                "white": 45.39,
+                "black": 52.73,
+                "draws": 1.88,
+                "uci": "d8c7",
+                "averageRating": 1522
+            },
+            {
+                "total_games": 1049,
+                "freq": 1.84,
+                "white": 47.66,
+                "black": 49.09,
+                "draws": 3.24,
+                "uci": "b7b6",
+                "averageRating": 1498
+            },
+            {
+                "total_games": 920,
+                "freq": 1.61,
+                "white": 49.57,
+                "black": 47.17,
+                "draws": 3.26,
+                "uci": "g7g6",
+                "averageRating": 1495
+            },
+            {
+                "total_games": 757,
+                "freq": 1.33,
+                "white": 48.61,
+                "black": 49.41,
+                "draws": 1.98,
+                "uci": "h7h6",
+                "averageRating": 1504
+            },
+            {
+                "total_games": 708,
+                "freq": 1.24,
+                "white": 46.47,
+                "black": 50.85,
+                "draws": 2.68,
+                "uci": "g8e7",
+                "averageRating": 1510
+            },
+            {
+                "total_games": 649,
+                "freq": 1.14,
+                "white": 49.0,
+                "black": 47.92,
+                "draws": 3.08,
+                "uci": "f8e7",
+                "averageRating": 1494
+            },
+            {
+                "total_games": 421,
+                "freq": 0.74,
+                "white": 48.69,
+                "black": 49.64,
+                "draws": 1.66,
+                "uci": "d8b6",
+                "averageRating": 1505
+            }
+        ],
+        "count": 0,
+        "total_game_move": 57039,
+        "name": {
+            "eco": "B40",
+            "name": "Sicilian Defense: French Variation"
+        }
+    },
+    "e2e4,e7e5,f2f4,e5f4,g1f3": {
+        "moves": [
+            {
+                "total_games": 1555181,
+                "freq": 22.4,
+                "white": 55.95,
+                "black": 41.29,
+                "draws": 2.75,
+                "uci": "b8c6",
+                "averageRating": 1457
+            },
+            {
+                "total_games": 1128539,
+                "freq": 16.25,
+                "white": 54.56,
+                "black": 42.52,
+                "draws": 2.92,
+                "uci": "d7d6",
+                "averageRating": 1483
+            },
+            {
+                "total_games": 959922,
+                "freq": 13.83,
+                "white": 57.46,
+                "black": 39.79,
+                "draws": 2.75,
+                "uci": "g8f6",
+                "averageRating": 1404
+            },
+            {
+                "total_games": 871863,
+                "freq": 12.56,
+                "white": 53.23,
+                "black": 44.53,
+                "draws": 2.24,
+                "uci": "g7g5",
+                "averageRating": 1484
+            },
+            {
+                "total_games": 630413,
+                "freq": 9.08,
+                "white": 53.79,
+                "black": 43.3,
+                "draws": 2.9,
+                "uci": "d7d5",
+                "averageRating": 1468
+            },
+            {
+                "total_games": 543267,
+                "freq": 7.82,
+                "white": 58.21,
+                "black": 39.35,
+                "draws": 2.44,
+                "uci": "f8c5",
+                "averageRating": 1456
+            },
+            {
+                "total_games": 479607,
+                "freq": 6.91,
+                "white": 46.58,
+                "black": 51.12,
+                "draws": 2.3,
+                "uci": "f8e7",
+                "averageRating": 1512
+            },
+            {
+                "total_games": 233099,
+                "freq": 3.36,
+                "white": 53.58,
+                "black": 43.73,
+                "draws": 2.68,
+                "uci": "h7h6",
+                "averageRating": 1495
+            },
+            {
+                "total_games": 155278,
+                "freq": 2.24,
+                "white": 64.96,
+                "black": 32.58,
+                "draws": 2.45,
+                "uci": "f8d6",
+                "averageRating": 1416
+            },
+            {
+                "total_games": 143550,
+                "freq": 2.07,
+                "white": 61.43,
+                "black": 36.06,
+                "draws": 2.51,
+                "uci": "f7f6",
+                "averageRating": 1434
+            },
+            {
+                "total_games": 142498,
+                "freq": 2.05,
+                "white": 58.91,
+                "black": 38.17,
+                "draws": 2.92,
+                "uci": "d8e7",
+                "averageRating": 1392
+            },
+            {
+                "total_games": 100064,
+                "freq": 1.44,
+                "white": 61.53,
+                "black": 36.21,
+                "draws": 2.26,
+                "uci": "d8f6",
+                "averageRating": 1398
+            }
+        ],
+        "count": 8,
+        "total_game_move": 6943281,
+        "name": {
+            "eco": "C34",
+            "name": "King's Gambit Accepted: King's Knight's Gambit"
+        }
+    },
+    "e2e4,g7g6,d2d4,f8g7,b1c3": {
+        "moves": [
+            {
+                "total_games": 434662,
+                "freq": 36.09,
+                "white": 50.55,
+                "black": 46.26,
+                "draws": 3.19,
+                "uci": "d7d6",
+                "averageRating": 1484
+            },
+            {
+                "total_games": 303885,
+                "freq": 25.23,
+                "white": 51.03,
+                "black": 46.1,
+                "draws": 2.87,
+                "uci": "e7e6",
+                "averageRating": 1484
+            },
+            {
+                "total_games": 119140,
+                "freq": 9.89,
+                "white": 51.16,
+                "black": 45.82,
+                "draws": 3.02,
+                "uci": "b7b6",
+                "averageRating": 1467
+            },
+            {
+                "total_games": 105461,
+                "freq": 8.76,
+                "white": 55.01,
+                "black": 42.12,
+                "draws": 2.86,
+                "uci": "g8f6",
+                "averageRating": 1404
+            },
+            {
+                "total_games": 57631,
+                "freq": 4.79,
+                "white": 52.29,
+                "black": 44.68,
+                "draws": 3.02,
+                "uci": "b8c6",
+                "averageRating": 1435
+            },
+            {
+                "total_games": 56794,
+                "freq": 4.72,
+                "white": 49.8,
+                "black": 47.35,
+                "draws": 2.85,
+                "uci": "c7c6",
+                "averageRating": 1483
+            },
+            {
+                "total_games": 43934,
+                "freq": 3.65,
+                "white": 47.43,
+                "black": 50.15,
+                "draws": 2.42,
+                "uci": "c7c5",
+                "averageRating": 1509
+            },
+            {
+                "total_games": 34926,
+                "freq": 2.9,
+                "white": 54.75,
+                "black": 41.97,
+                "draws": 3.28,
+                "uci": "e7e5",
+                "averageRating": 1408
+            },
+            {
+                "total_games": 18799,
+                "freq": 1.56,
+                "white": 49.77,
+                "black": 47.44,
+                "draws": 2.79,
+                "uci": "d7d5",
+                "averageRating": 1466
+            },
+            {
+                "total_games": 11484,
+                "freq": 0.95,
+                "white": 50.89,
+                "black": 46.26,
+                "draws": 2.86,
+                "uci": "a7a6",
+                "averageRating": 1475
+            },
+            {
+                "total_games": 9008,
+                "freq": 0.75,
+                "white": 51.77,
+                "black": 45.78,
+                "draws": 2.45,
+                "uci": "f7f6",
+                "averageRating": 1468
+            },
+            {
+                "total_games": 8628,
+                "freq": 0.72,
+                "white": 54.43,
+                "black": 42.95,
+                "draws": 2.62,
+                "uci": "g8h6",
+                "averageRating": 1338
+            }
+        ],
+        "count": 1,
+        "total_game_move": 1204352,
+        "name": {
+            "eco": "B06",
+            "name": "Modern Defense: Standard Line"
+        }
+    },
+    "e2e4,c7c5,g1f3,e7e5,f1c4": {
+        "moves": [
+            {
+                "total_games": 97906,
+                "freq": 37.03,
+                "white": 55.27,
+                "black": 41.58,
+                "draws": 3.15,
+                "uci": "b8c6",
+                "averageRating": 1378
+            },
+            {
+                "total_games": 88608,
+                "freq": 33.52,
+                "white": 54.4,
+                "black": 42.12,
+                "draws": 3.48,
+                "uci": "d7d6",
+                "averageRating": 1358
+            },
+            {
+                "total_games": 25743,
+                "freq": 9.74,
+                "white": 63.55,
+                "black": 33.53,
+                "draws": 2.92,
+                "uci": "g8f6",
+                "averageRating": 1278
+            },
+            {
+                "total_games": 12366,
+                "freq": 4.68,
+                "white": 64.81,
+                "black": 32.29,
+                "draws": 2.9,
+                "uci": "h7h6",
+                "averageRating": 1415
+            },
+            {
+                "total_games": 12291,
+                "freq": 4.65,
+                "white": 62.09,
+                "black": 34.72,
+                "draws": 3.19,
+                "uci": "f7f6",
+                "averageRating": 1295
+            },
+            {
+                "total_games": 5836,
+                "freq": 2.21,
+                "white": 68.71,
+                "black": 28.03,
+                "draws": 3.26,
+                "uci": "d7d5",
+                "averageRating": 1121
+            },
+            {
+                "total_games": 5568,
+                "freq": 2.11,
+                "white": 61.93,
+                "black": 34.9,
+                "draws": 3.18,
+                "uci": "f8d6",
+                "averageRating": 1277
+            },
+            {
+                "total_games": 4906,
+                "freq": 1.86,
+                "white": 64.37,
+                "black": 32.21,
+                "draws": 3.42,
+                "uci": "a7a6",
+                "averageRating": 1248
+            },
+            {
+                "total_games": 3207,
+                "freq": 1.21,
+                "white": 58.84,
+                "black": 38.2,
+                "draws": 2.96,
+                "uci": "d8f6",
+                "averageRating": 1313
+            },
+            {
+                "total_games": 2930,
+                "freq": 1.11,
+                "white": 65.84,
+                "black": 31.6,
+                "draws": 2.56,
+                "uci": "f8e7",
+                "averageRating": 1387
+            },
+            {
+                "total_games": 2567,
+                "freq": 0.97,
+                "white": 62.64,
+                "black": 34.13,
+                "draws": 3.23,
+                "uci": "g8h6",
+                "averageRating": 1158
+            },
+            {
+                "total_games": 2443,
+                "freq": 0.92,
+                "white": 72.21,
+                "black": 25.09,
+                "draws": 2.7,
+                "uci": "d8a5",
+                "averageRating": 976
+            }
+        ],
+        "count": 1,
+        "total_game_move": 264371,
+        "name": {
+            "eco": "B27",
+            "name": "Sicilian Defense: Jalalabad Variation"
+        }
+    },
+    "e2e4,e7e5,f2f4,d7d6,g1f3": {
+        "moves": [
+            {
+                "total_games": 860132,
+                "freq": 39.31,
+                "white": 53.33,
+                "black": 43.74,
+                "draws": 2.93,
+                "uci": "b8c6",
+                "averageRating": 1476
+            },
+            {
+                "total_games": 463070,
+                "freq": 21.17,
+                "white": 55.72,
+                "black": 41.68,
+                "draws": 2.6,
+                "uci": "e5f4",
+                "averageRating": 1450
+            },
+            {
+                "total_games": 432796,
+                "freq": 19.78,
+                "white": 54.18,
+                "black": 42.86,
+                "draws": 2.96,
+                "uci": "c8g4",
+                "averageRating": 1491
+            },
+            {
+                "total_games": 154290,
+                "freq": 7.05,
+                "white": 56.31,
+                "black": 40.95,
+                "draws": 2.74,
+                "uci": "g8f6",
+                "averageRating": 1419
+            },
+            {
+                "total_games": 115560,
+                "freq": 5.28,
+                "white": 59.07,
+                "black": 38.3,
+                "draws": 2.62,
+                "uci": "f7f6",
+                "averageRating": 1440
+            },
+            {
+                "total_games": 43371,
+                "freq": 1.98,
+                "white": 54.65,
+                "black": 42.8,
+                "draws": 2.55,
+                "uci": "b8d7",
+                "averageRating": 1479
+            },
+            {
+                "total_games": 35919,
+                "freq": 1.64,
+                "white": 53.53,
+                "black": 44.15,
+                "draws": 2.32,
+                "uci": "f7f5",
+                "averageRating": 1441
+            },
+            {
+                "total_games": 29247,
+                "freq": 1.34,
+                "white": 53.08,
+                "black": 44.39,
+                "draws": 2.53,
+                "uci": "f8e7",
+                "averageRating": 1477
+            },
+            {
+                "total_games": 19048,
+                "freq": 0.87,
+                "white": 57.22,
+                "black": 39.89,
+                "draws": 2.89,
+                "uci": "h7h6",
+                "averageRating": 1471
+            },
+            {
+                "total_games": 14206,
+                "freq": 0.65,
+                "white": 55.08,
+                "black": 42.59,
+                "draws": 2.33,
+                "uci": "d8e7",
+                "averageRating": 1477
+            },
+            {
+                "total_games": 10870,
+                "freq": 0.5,
+                "white": 59.48,
+                "black": 37.86,
+                "draws": 2.66,
+                "uci": "g7g6",
+                "averageRating": 1426
+            },
+            {
+                "total_games": 9337,
+                "freq": 0.43,
+                "white": 57.87,
+                "black": 39.57,
+                "draws": 2.56,
+                "uci": "c7c5",
+                "averageRating": 1402
+            }
+        ],
+        "count": 4,
+        "total_game_move": 2187846,
+        "name": {
+            "eco": "C30",
+            "name": "King's Gambit"
+        }
+    },
+    "e2e4,e7e6,d2d4,d7d5,b1d2": {
+        "moves": [
+            {
+                "total_games": 200398,
+                "freq": 37.83,
+                "white": 50.65,
+                "black": 46.18,
+                "draws": 3.16,
+                "uci": "c7c5",
+                "averageRating": 1499
+            },
+            {
+                "total_games": 136071,
+                "freq": 25.69,
+                "white": 53.91,
+                "black": 43.04,
+                "draws": 3.05,
+                "uci": "d5e4",
+                "averageRating": 1498
+            },
+            {
+                "total_games": 119260,
+                "freq": 22.51,
+                "white": 50.92,
+                "black": 46.41,
+                "draws": 2.67,
+                "uci": "g8f6",
+                "averageRating": 1513
+            },
+            {
+                "total_games": 26053,
+                "freq": 4.92,
+                "white": 57.64,
+                "black": 39.38,
+                "draws": 2.98,
+                "uci": "b8c6",
+                "averageRating": 1456
+            },
+            {
+                "total_games": 15666,
+                "freq": 2.96,
+                "white": 60.0,
+                "black": 37.24,
+                "draws": 2.76,
+                "uci": "f8b4",
+                "averageRating": 1469
+            },
+            {
+                "total_games": 12071,
+                "freq": 2.28,
+                "white": 54.98,
+                "black": 42.2,
+                "draws": 2.82,
+                "uci": "c7c6",
+                "averageRating": 1484
+            },
+            {
+                "total_games": 6192,
+                "freq": 1.17,
+                "white": 53.47,
+                "black": 43.65,
+                "draws": 2.87,
+                "uci": "a7a6",
+                "averageRating": 1502
+            },
+            {
+                "total_games": 5333,
+                "freq": 1.01,
+                "white": 52.8,
+                "black": 44.68,
+                "draws": 2.51,
+                "uci": "g8e7",
+                "averageRating": 1494
+            },
+            {
+                "total_games": 2896,
+                "freq": 0.55,
+                "white": 50.59,
+                "black": 46.58,
+                "draws": 2.83,
+                "uci": "f8e7",
+                "averageRating": 1509
+            },
+            {
+                "total_games": 2346,
+                "freq": 0.44,
+                "white": 54.65,
+                "black": 42.97,
+                "draws": 2.39,
+                "uci": "b7b6",
+                "averageRating": 1483
+            },
+            {
+                "total_games": 1806,
+                "freq": 0.34,
+                "white": 54.54,
+                "black": 42.47,
+                "draws": 2.99,
+                "uci": "c8d7",
+                "averageRating": 1481
+            },
+            {
+                "total_games": 1652,
+                "freq": 0.31,
+                "white": 56.36,
+                "black": 41.53,
+                "draws": 2.12,
+                "uci": "b8d7",
+                "averageRating": 1486
+            }
+        ],
+        "count": 2,
+        "total_game_move": 529744,
+        "name": {
+            "eco": "C03",
+            "name": "French Defense: Tarrasch Variation"
+        }
+    },
+    "e2e4,e7e6,d2d4,c7c6,c2c4": {
+        "moves": [
+            {
+                "total_games": 228685,
+                "freq": 49.92,
+                "white": 50.54,
+                "black": 46.14,
+                "draws": 3.32,
+                "uci": "d7d5",
+                "averageRating": 1494
+            },
+            {
+                "total_games": 35195,
+                "freq": 7.68,
+                "white": 52.42,
+                "black": 44.3,
+                "draws": 3.27,
+                "uci": "a7a6",
+                "averageRating": 1483
+            },
+            {
+                "total_games": 34144,
+                "freq": 7.45,
+                "white": 53.75,
+                "black": 43.13,
+                "draws": 3.12,
+                "uci": "g8f6",
+                "averageRating": 1465
+            },
+            {
+                "total_games": 25815,
+                "freq": 5.64,
+                "white": 55.01,
+                "black": 41.22,
+                "draws": 3.77,
+                "uci": "f8b4",
+                "averageRating": 1460
+            },
+            {
+                "total_games": 24199,
+                "freq": 5.28,
+                "white": 56.16,
+                "black": 40.77,
+                "draws": 3.06,
+                "uci": "d8a5",
+                "averageRating": 1430
+            },
+            {
+                "total_games": 23122,
+                "freq": 5.05,
+                "white": 52.27,
+                "black": 44.66,
+                "draws": 3.07,
+                "uci": "d7d6",
+                "averageRating": 1485
+            },
+            {
+                "total_games": 19055,
+                "freq": 4.16,
+                "white": 52.63,
+                "black": 43.63,
+                "draws": 3.74,
+                "uci": "h7h6",
+                "averageRating": 1486
+            },
+            {
+                "total_games": 17887,
+                "freq": 3.9,
+                "white": 50.55,
+                "black": 46.15,
+                "draws": 3.3,
+                "uci": "g8e7",
+                "averageRating": 1491
+            },
+            {
+                "total_games": 17088,
+                "freq": 3.73,
+                "white": 53.76,
+                "black": 43.16,
+                "draws": 3.07,
+                "uci": "g7g6",
+                "averageRating": 1452
+            },
+            {
+                "total_games": 13539,
+                "freq": 2.96,
+                "white": 53.67,
+                "black": 43.96,
+                "draws": 2.36,
+                "uci": "d8b6",
+                "averageRating": 1469
+            },
+            {
+                "total_games": 9920,
+                "freq": 2.17,
+                "white": 52.0,
+                "black": 44.75,
+                "draws": 3.26,
+                "uci": "b7b5",
+                "averageRating": 1441
+            },
+            {
+                "total_games": 9440,
+                "freq": 2.06,
+                "white": 55.72,
+                "black": 41.37,
+                "draws": 2.91,
+                "uci": "b7b6",
+                "averageRating": 1465
+            }
+        ],
+        "count": 1,
+        "total_game_move": 458089,
+        "name": {
+            "eco": "C00",
+            "name": "French Defense: Normal Variation"
+        }
+    },
+    "e2e4,e7e6,d2d4,g8e7,b1c3": {
+        "moves": [
+            {
+                "total_games": 32496,
+                "freq": 32.68,
+                "white": 47.98,
+                "black": 49.76,
+                "draws": 2.26,
+                "uci": "e7g6",
+                "averageRating": 1499
+            },
+            {
+                "total_games": 22030,
+                "freq": 22.15,
+                "white": 50.74,
+                "black": 46.19,
+                "draws": 3.07,
+                "uci": "g7g6",
+                "averageRating": 1466
+            },
+            {
+                "total_games": 13044,
+                "freq": 13.12,
+                "white": 49.9,
+                "black": 47.37,
+                "draws": 2.73,
+                "uci": "d7d6",
+                "averageRating": 1466
+            },
+            {
+                "total_games": 12892,
+                "freq": 12.96,
+                "white": 47.8,
+                "black": 49.11,
+                "draws": 3.09,
+                "uci": "d7d5",
+                "averageRating": 1459
+            },
+            {
+                "total_games": 6726,
+                "freq": 6.76,
+                "white": 48.74,
+                "black": 48.75,
+                "draws": 2.51,
+                "uci": "b7b6",
+                "averageRating": 1495
+            },
+            {
+                "total_games": 4803,
+                "freq": 4.83,
+                "white": 50.82,
+                "black": 46.39,
+                "draws": 2.79,
+                "uci": "c7c6",
+                "averageRating": 1464
+            },
+            {
+                "total_games": 1958,
+                "freq": 1.97,
+                "white": 53.83,
+                "black": 42.39,
+                "draws": 3.78,
+                "uci": "b8c6",
+                "averageRating": 1359
+            },
+            {
+                "total_games": 1920,
+                "freq": 1.93,
+                "white": 49.53,
+                "black": 47.08,
+                "draws": 3.39,
+                "uci": "a7a6",
+                "averageRating": 1488
+            },
+            {
+                "total_games": 1444,
+                "freq": 1.45,
+                "white": 49.31,
+                "black": 47.02,
+                "draws": 3.67,
+                "uci": "h7h6",
+                "averageRating": 1488
+            },
+            {
+                "total_games": 875,
+                "freq": 0.88,
+                "white": 56.0,
+                "black": 41.49,
+                "draws": 2.51,
+                "uci": "e7c6",
+                "averageRating": 1324
+            },
+            {
+                "total_games": 652,
+                "freq": 0.66,
+                "white": 54.91,
+                "black": 42.64,
+                "draws": 2.45,
+                "uci": "f7f6",
+                "averageRating": 1447
+            },
+            {
+                "total_games": 608,
+                "freq": 0.61,
+                "white": 53.62,
+                "black": 42.43,
+                "draws": 3.95,
+                "uci": "f7f5",
+                "averageRating": 1348
+            }
+        ],
+        "count": 1,
+        "total_game_move": 99448,
+        "name": {
+            "eco": "C00",
+            "name": "French Defense: Normal Variation"
+        }
+    },
+    "e2e4,c7c5,g1f3,d7d6,d2d4": {
+        "moves": [
+            {
+                "total_games": 7286355,
+                "freq": 89.08,
+                "white": 47.92,
+                "black": 48.72,
+                "draws": 3.36,
+                "uci": "c5d4",
+                "averageRating": 1497
+            },
+            {
+                "total_games": 287612,
+                "freq": 3.52,
+                "white": 53.18,
+                "black": 43.14,
+                "draws": 3.67,
+                "uci": "b8c6",
+                "averageRating": 1428
+            },
+            {
+                "total_games": 220360,
+                "freq": 2.69,
+                "white": 50.9,
+                "black": 45.5,
+                "draws": 3.6,
+                "uci": "g8f6",
+                "averageRating": 1431
+            },
+            {
+                "total_games": 77496,
+                "freq": 0.95,
+                "white": 55.23,
+                "black": 41.23,
+                "draws": 3.54,
+                "uci": "c8g4",
+                "averageRating": 1441
+            },
+            {
+                "total_games": 74437,
+                "freq": 0.91,
+                "white": 57.86,
+                "black": 38.62,
+                "draws": 3.52,
+                "uci": "b7b6",
+                "averageRating": 1405
+            },
+            {
+                "total_games": 73049,
+                "freq": 0.89,
+                "white": 52.07,
+                "black": 44.6,
+                "draws": 3.33,
+                "uci": "e7e6",
+                "averageRating": 1465
+            },
+            {
+                "total_games": 45262,
+                "freq": 0.55,
+                "white": 52.86,
+                "black": 43.72,
+                "draws": 3.42,
+                "uci": "g7g6",
+                "averageRating": 1428
+            },
+            {
+                "total_games": 27793,
+                "freq": 0.34,
+                "white": 52.89,
+                "black": 43.86,
+                "draws": 3.25,
+                "uci": "b8d7",
+                "averageRating": 1427
+            },
+            {
+                "total_games": 27072,
+                "freq": 0.33,
+                "white": 60.53,
+                "black": 35.57,
+                "draws": 3.9,
+                "uci": "e7e5",
+                "averageRating": 1342
+            },
+            {
+                "total_games": 25815,
+                "freq": 0.32,
+                "white": 55.27,
+                "black": 41.31,
+                "draws": 3.42,
+                "uci": "a7a6",
+                "averageRating": 1427
+            },
+            {
+                "total_games": 21048,
+                "freq": 0.26,
+                "white": 63.29,
+                "black": 33.8,
+                "draws": 2.91,
+                "uci": "c5c4",
+                "averageRating": 1432
+            },
+            {
+                "total_games": 13417,
+                "freq": 0.16,
+                "white": 53.86,
+                "black": 42.8,
+                "draws": 3.34,
+                "uci": "c8d7",
+                "averageRating": 1439
+            }
+        ],
+        "count": 2,
+        "total_game_move": 8179716,
+        "name": {
+            "eco": "B50",
+            "name": "Sicilian Defense"
+        }
+    },
+    "e2e4,b8c6,d2d4,e7e5,d4d5": {
+        "moves": [
+            {
+                "total_games": 1321666,
+                "freq": 46.7,
+                "white": 48.98,
+                "black": 48.32,
+                "draws": 2.7,
+                "uci": "c6e7",
+                "averageRating": 1456
+            },
+            {
+                "total_games": 859657,
+                "freq": 30.37,
+                "white": 62.12,
+                "black": 34.84,
+                "draws": 3.03,
+                "uci": "c6d4",
+                "averageRating": 1253
+            },
+            {
+                "total_games": 286644,
+                "freq": 10.13,
+                "white": 50.12,
+                "black": 46.99,
+                "draws": 2.89,
+                "uci": "c6b8",
+                "averageRating": 1463
+            },
+            {
+                "total_games": 243535,
+                "freq": 8.6,
+                "white": 56.45,
+                "black": 40.45,
+                "draws": 3.1,
+                "uci": "c6b4",
+                "averageRating": 1194
+            },
+            {
+                "total_games": 58717,
+                "freq": 2.07,
+                "white": 57.54,
+                "black": 39.48,
+                "draws": 2.98,
+                "uci": "c6a5",
+                "averageRating": 1284
+            },
+            {
+                "total_games": 24120,
+                "freq": 0.85,
+                "white": 66.13,
+                "black": 30.8,
+                "draws": 3.07,
+                "uci": "f8b4",
+                "averageRating": 1100
+            },
+            {
+                "total_games": 15821,
+                "freq": 0.56,
+                "white": 61.34,
+                "black": 35.28,
+                "draws": 3.38,
+                "uci": "g8f6",
+                "averageRating": 1180
+            },
+            {
+                "total_games": 11277,
+                "freq": 0.4,
+                "white": 61.52,
+                "black": 35.94,
+                "draws": 2.54,
+                "uci": "d7d6",
+                "averageRating": 1267
+            },
+            {
+                "total_games": 4510,
+                "freq": 0.16,
+                "white": 57.85,
+                "black": 39.49,
+                "draws": 2.66,
+                "uci": "f8c5",
+                "averageRating": 1176
+            },
+            {
+                "total_games": 1789,
+                "freq": 0.06,
+                "white": 57.85,
+                "black": 39.85,
+                "draws": 2.29,
+                "uci": "d8h4",
+                "averageRating": 1163
+            },
+            {
+                "total_games": 1258,
+                "freq": 0.04,
+                "white": 63.91,
+                "black": 33.31,
+                "draws": 2.78,
+                "uci": "f7f6",
+                "averageRating": 1191
+            },
+            {
+                "total_games": 1240,
+                "freq": 0.04,
+                "white": 54.68,
+                "black": 42.34,
+                "draws": 2.98,
+                "uci": "d8f6",
+                "averageRating": 1190
+            }
+        ],
+        "count": 1,
+        "total_game_move": 2830234,
+        "name": {
+            "eco": "B00",
+            "name": "Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation"
+        }
+    },
+    "e2e4,e7e5,f2f4,g8f6,b1c3": {
+        "moves": [
+            {
+                "total_games": 914760,
+                "freq": 44.04,
+                "white": 61.44,
+                "black": 35.67,
+                "draws": 2.89,
+                "uci": "e5f4",
+                "averageRating": 1383
+            },
+            {
+                "total_games": 384744,
+                "freq": 18.52,
+                "white": 51.81,
+                "black": 44.94,
+                "draws": 3.24,
+                "uci": "d7d6",
+                "averageRating": 1425
+            },
+            {
+                "total_games": 335281,
+                "freq": 16.14,
+                "white": 58.44,
+                "black": 38.69,
+                "draws": 2.87,
+                "uci": "b8c6",
+                "averageRating": 1397
+            },
+            {
+                "total_games": 189748,
+                "freq": 9.14,
+                "white": 48.95,
+                "black": 48.18,
+                "draws": 2.87,
+                "uci": "d7d5",
+                "averageRating": 1438
+            },
+            {
+                "total_games": 90976,
+                "freq": 4.38,
+                "white": 53.2,
+                "black": 44.02,
+                "draws": 2.79,
+                "uci": "f8b4",
+                "averageRating": 1448
+            },
+            {
+                "total_games": 85110,
+                "freq": 4.1,
+                "white": 59.9,
+                "black": 38.03,
+                "draws": 2.07,
+                "uci": "f8c5",
+                "averageRating": 1389
+            },
+            {
+                "total_games": 31362,
+                "freq": 1.51,
+                "white": 63.65,
+                "black": 33.59,
+                "draws": 2.75,
+                "uci": "f8d6",
+                "averageRating": 1354
+            },
+            {
+                "total_games": 17215,
+                "freq": 0.83,
+                "white": 61.07,
+                "black": 36.54,
+                "draws": 2.39,
+                "uci": "f6e4",
+                "averageRating": 1301
+            },
+            {
+                "total_games": 8563,
+                "freq": 0.41,
+                "white": 64.09,
+                "black": 33.63,
+                "draws": 2.28,
+                "uci": "c7c6",
+                "averageRating": 1315
+            },
+            {
+                "total_games": 7569,
+                "freq": 0.36,
+                "white": 58.42,
+                "black": 38.7,
+                "draws": 2.88,
+                "uci": "d8e7",
+                "averageRating": 1347
+            },
+            {
+                "total_games": 7034,
+                "freq": 0.34,
+                "white": 63.28,
+                "black": 34.49,
+                "draws": 2.23,
+                "uci": "g7g6",
+                "averageRating": 1326
+            },
+            {
+                "total_games": 4633,
+                "freq": 0.22,
+                "white": 62.08,
+                "black": 35.64,
+                "draws": 2.29,
+                "uci": "f8e7",
+                "averageRating": 1414
+            }
+        ],
+        "count": 1,
+        "total_game_move": 2076995,
+        "name": {
+            "eco": "C29",
+            "name": "Vienna Game: Vienna Gambit"
+        }
+    },
+    "e2e4,e7e5,f2f4,d7d5,e4d5": {
+        "moves": [
+            {
+                "total_games": 188912,
+                "freq": 33.22,
+                "white": 56.36,
+                "black": 40.45,
+                "draws": 3.19,
+                "uci": "d8d5",
+                "averageRating": 1482
+            },
+            {
+                "total_games": 174887,
+                "freq": 30.75,
+                "white": 51.2,
+                "black": 46.07,
+                "draws": 2.73,
+                "uci": "e5f4",
+                "averageRating": 1488
+            },
+            {
+                "total_games": 159365,
+                "freq": 28.02,
+                "white": 46.77,
+                "black": 51.08,
+                "draws": 2.15,
+                "uci": "e5e4",
+                "averageRating": 1514
+            },
+            {
+                "total_games": 20455,
+                "freq": 3.6,
+                "white": 44.29,
+                "black": 53.53,
+                "draws": 2.18,
+                "uci": "c7c6",
+                "averageRating": 1499
+            },
+            {
+                "total_games": 9172,
+                "freq": 1.61,
+                "white": 55.1,
+                "black": 42.7,
+                "draws": 2.2,
+                "uci": "g8f6",
+                "averageRating": 1460
+            },
+            {
+                "total_games": 6709,
+                "freq": 1.18,
+                "white": 49.62,
+                "black": 48.1,
+                "draws": 2.28,
+                "uci": "f8c5",
+                "averageRating": 1481
+            },
+            {
+                "total_games": 5264,
+                "freq": 0.93,
+                "white": 55.79,
+                "black": 41.07,
+                "draws": 3.13,
+                "uci": "d8h4",
+                "averageRating": 1463
+            },
+            {
+                "total_games": 1483,
+                "freq": 0.26,
+                "white": 54.08,
+                "black": 43.09,
+                "draws": 2.83,
+                "uci": "f8d6",
+                "averageRating": 1457
+            },
+            {
+                "total_games": 718,
+                "freq": 0.13,
+                "white": 56.13,
+                "black": 40.95,
+                "draws": 2.92,
+                "uci": "f7f6",
+                "averageRating": 1412
+            },
+            {
+                "total_games": 665,
+                "freq": 0.12,
+                "white": 61.05,
+                "black": 36.24,
+                "draws": 2.71,
+                "uci": "c8f5",
+                "averageRating": 1398
+            },
+            {
+                "total_games": 630,
+                "freq": 0.11,
+                "white": 69.21,
+                "black": 27.94,
+                "draws": 2.86,
+                "uci": "c7c5",
+                "averageRating": 1307
+            },
+            {
+                "total_games": 466,
+                "freq": 0.08,
+                "white": 56.65,
+                "black": 40.56,
+                "draws": 2.79,
+                "uci": "c8g4",
+                "averageRating": 1422
+            }
+        ],
+        "count": 1,
+        "total_game_move": 568726,
+        "name": {
+            "eco": "C31",
+            "name": "King's Gambit Declined: Falkbeer Countergambit Accepted"
+        }
+    },
+    "e2e4,d7d5,e4d5,e7e6,d5e6": {
+        "moves": [
+            {
+                "total_games": 585104,
+                "freq": 81.74,
+                "white": 48.81,
+                "black": 48.18,
+                "draws": 3.01,
+                "uci": "c8e6",
+                "averageRating": 1468
+            },
+            {
+                "total_games": 86400,
+                "freq": 12.07,
+                "white": 68.73,
+                "black": 27.05,
+                "draws": 4.22,
+                "uci": "f7e6",
+                "averageRating": 1132
+            },
+            {
+                "total_games": 11883,
+                "freq": 1.66,
+                "white": 53.15,
+                "black": 43.44,
+                "draws": 3.41,
+                "uci": "d8e7",
+                "averageRating": 1350
+            },
+            {
+                "total_games": 9520,
+                "freq": 1.33,
+                "white": 63.89,
+                "black": 33.58,
+                "draws": 2.53,
+                "uci": "f8c5",
+                "averageRating": 1242
+            },
+            {
+                "total_games": 7512,
+                "freq": 1.05,
+                "white": 59.6,
+                "black": 37.94,
+                "draws": 2.46,
+                "uci": "g8f6",
+                "averageRating": 1427
+            },
+            {
+                "total_games": 3847,
+                "freq": 0.54,
+                "white": 64.28,
+                "black": 32.65,
+                "draws": 3.07,
+                "uci": "b8c6",
+                "averageRating": 1317
+            },
+            {
+                "total_games": 2427,
+                "freq": 0.34,
+                "white": 68.77,
+                "black": 27.4,
+                "draws": 3.83,
+                "uci": "c7c6",
+                "averageRating": 1248
+            },
+            {
+                "total_games": 2395,
+                "freq": 0.33,
+                "white": 64.34,
+                "black": 31.73,
+                "draws": 3.92,
+                "uci": "d8d5",
+                "averageRating": 1231
+            },
+            {
+                "total_games": 1825,
+                "freq": 0.25,
+                "white": 55.56,
+                "black": 41.86,
+                "draws": 2.58,
+                "uci": "d8f6",
+                "averageRating": 1188
+            },
+            {
+                "total_games": 1673,
+                "freq": 0.23,
+                "white": 71.07,
+                "black": 25.1,
+                "draws": 3.83,
+                "uci": "f8b4",
+                "averageRating": 1064
+            },
+            {
+                "total_games": 1605,
+                "freq": 0.22,
+                "white": 69.78,
+                "black": 26.73,
+                "draws": 3.49,
+                "uci": "f7f6",
+                "averageRating": 1194
+            },
+            {
+                "total_games": 1594,
+                "freq": 0.22,
+                "white": 71.71,
+                "black": 24.97,
+                "draws": 3.32,
+                "uci": "f7f5",
+                "averageRating": 1247
+            }
+        ],
+        "count": 2,
+        "total_game_move": 715785,
+        "name": {
+            "eco": "B01",
+            "name": "Scandinavian Defense"
+        }
+    },
+    "e2e4,d7d6,d2d4,g8f6,b1c3": {
+        "moves": [
+            {
+                "total_games": 1945533,
+                "freq": 61.21,
+                "white": 49.23,
+                "black": 47.15,
+                "draws": 3.62,
+                "uci": "g7g6",
+                "averageRating": 1455
+            },
+            {
+                "total_games": 426967,
+                "freq": 13.43,
+                "white": 49.09,
+                "black": 47.55,
+                "draws": 3.36,
+                "uci": "c7c6",
+                "averageRating": 1448
+            },
+            {
+                "total_games": 246043,
+                "freq": 7.74,
+                "white": 47.54,
+                "black": 49.36,
+                "draws": 3.1,
+                "uci": "b8d7",
+                "averageRating": 1488
+            },
+            {
+                "total_games": 140751,
+                "freq": 4.43,
+                "white": 52.87,
+                "black": 43.82,
+                "draws": 3.31,
+                "uci": "c8g4",
+                "averageRating": 1387
+            },
+            {
+                "total_games": 128186,
+                "freq": 4.03,
+                "white": 51.84,
+                "black": 43.99,
+                "draws": 4.17,
+                "uci": "e7e5",
+                "averageRating": 1377
+            },
+            {
+                "total_games": 114887,
+                "freq": 3.61,
+                "white": 52.78,
+                "black": 43.47,
+                "draws": 3.75,
+                "uci": "b8c6",
+                "averageRating": 1390
+            },
+            {
+                "total_games": 71982,
+                "freq": 2.26,
+                "white": 51.08,
+                "black": 45.52,
+                "draws": 3.4,
+                "uci": "e7e6",
+                "averageRating": 1447
+            },
+            {
+                "total_games": 24748,
+                "freq": 0.78,
+                "white": 51.43,
+                "black": 45.06,
+                "draws": 3.52,
+                "uci": "a7a6",
+                "averageRating": 1466
+            },
+            {
+                "total_games": 23837,
+                "freq": 0.75,
+                "white": 52.54,
+                "black": 44.1,
+                "draws": 3.36,
+                "uci": "b7b6",
+                "averageRating": 1440
+            },
+            {
+                "total_games": 21550,
+                "freq": 0.68,
+                "white": 54.52,
+                "black": 42.11,
+                "draws": 3.37,
+                "uci": "c7c5",
+                "averageRating": 1345
+            },
+            {
+                "total_games": 18428,
+                "freq": 0.58,
+                "white": 56.66,
+                "black": 39.67,
+                "draws": 3.67,
+                "uci": "d6d5",
+                "averageRating": 1252
+            },
+            {
+                "total_games": 15426,
+                "freq": 0.49,
+                "white": 51.23,
+                "black": 45.01,
+                "draws": 3.75,
+                "uci": "h7h6",
+                "averageRating": 1471
+            }
+        ],
+        "count": 1,
+        "total_game_move": 3178338,
+        "name": {
+            "eco": "B00",
+            "name": "Pirc Defense"
+        }
+    },
+    "e2e4,e7e5,f2f4,f7f5,e4f5": {
+        "moves": [
+            {
+                "total_games": 27428,
+                "freq": 52.49,
+                "white": 64.73,
+                "black": 32.09,
+                "draws": 3.17,
+                "uci": "e5f4",
+                "averageRating": 1359
+            },
+            {
+                "total_games": 6671,
+                "freq": 12.77,
+                "white": 54.91,
+                "black": 42.66,
+                "draws": 2.43,
+                "uci": "e5e4",
+                "averageRating": 1443
+            },
+            {
+                "total_games": 4057,
+                "freq": 7.76,
+                "white": 66.38,
+                "black": 31.97,
+                "draws": 1.65,
+                "uci": "g8f6",
+                "averageRating": 1440
+            },
+            {
+                "total_games": 3876,
+                "freq": 7.42,
+                "white": 62.0,
+                "black": 35.22,
+                "draws": 2.79,
+                "uci": "d8h4",
+                "averageRating": 1436
+            },
+            {
+                "total_games": 3650,
+                "freq": 6.99,
+                "white": 57.23,
+                "black": 40.08,
+                "draws": 2.68,
+                "uci": "d7d6",
+                "averageRating": 1436
+            },
+            {
+                "total_games": 1890,
+                "freq": 3.62,
+                "white": 64.55,
+                "black": 32.65,
+                "draws": 2.8,
+                "uci": "d7d5",
+                "averageRating": 1415
+            },
+            {
+                "total_games": 1170,
+                "freq": 2.24,
+                "white": 57.35,
+                "black": 39.74,
+                "draws": 2.91,
+                "uci": "d8f6",
+                "averageRating": 1465
+            },
+            {
+                "total_games": 1162,
+                "freq": 2.22,
+                "white": 58.18,
+                "black": 38.98,
+                "draws": 2.84,
+                "uci": "b8c6",
+                "averageRating": 1436
+            },
+            {
+                "total_games": 1138,
+                "freq": 2.18,
+                "white": 47.8,
+                "black": 50.26,
+                "draws": 1.93,
+                "uci": "d8e7",
+                "averageRating": 1494
+            },
+            {
+                "total_games": 710,
+                "freq": 1.36,
+                "white": 64.37,
+                "black": 33.66,
+                "draws": 1.97,
+                "uci": "f8c5",
+                "averageRating": 1414
+            },
+            {
+                "total_games": 352,
+                "freq": 0.67,
+                "white": 68.18,
+                "black": 24.15,
+                "draws": 7.67,
+                "uci": "g7g6",
+                "averageRating": 1268
+            },
+            {
+                "total_games": 145,
+                "freq": 0.28,
+                "white": 79.31,
+                "black": 17.24,
+                "draws": 3.45,
+                "uci": "g7g5",
+                "averageRating": 1266
+            }
+        ],
+        "count": 1,
+        "total_game_move": 52249,
+        "name": {
+            "eco": "C30",
+            "name": "King's Gambit Declined: Panteldakis Countergambit"
+        }
+    },
+    "e2e4,e7e6,d2d4,b7b6,f1d3": {
+        "moves": [
+            {
+                "total_games": 65660,
+                "freq": 86.26,
+                "white": 52.07,
+                "black": 45.39,
+                "draws": 2.53,
+                "uci": "c8b7",
+                "averageRating": 1501
+            },
+            {
+                "total_games": 1748,
+                "freq": 2.3,
+                "white": 53.89,
+                "black": 42.96,
+                "draws": 3.15,
+                "uci": "c8a6",
+                "averageRating": 1476
+            },
+            {
+                "total_games": 1566,
+                "freq": 2.06,
+                "white": 55.68,
+                "black": 41.38,
+                "draws": 2.94,
+                "uci": "g7g6",
+                "averageRating": 1449
+            },
+            {
+                "total_games": 1392,
+                "freq": 1.83,
+                "white": 55.39,
+                "black": 42.03,
+                "draws": 2.59,
+                "uci": "c7c5",
+                "averageRating": 1452
+            },
+            {
+                "total_games": 968,
+                "freq": 1.27,
+                "white": 55.27,
+                "black": 42.36,
+                "draws": 2.38,
+                "uci": "g8f6",
+                "averageRating": 1473
+            },
+            {
+                "total_games": 876,
+                "freq": 1.15,
+                "white": 57.31,
+                "black": 40.07,
+                "draws": 2.63,
+                "uci": "b8c6",
+                "averageRating": 1431
+            },
+            {
+                "total_games": 874,
+                "freq": 1.15,
+                "white": 58.35,
+                "black": 38.56,
+                "draws": 3.09,
+                "uci": "d7d5",
+                "averageRating": 1444
+            },
+            {
+                "total_games": 818,
+                "freq": 1.07,
+                "white": 50.98,
+                "black": 46.09,
+                "draws": 2.93,
+                "uci": "h7h6",
+                "averageRating": 1501
+            },
+            {
+                "total_games": 627,
+                "freq": 0.82,
+                "white": 50.08,
+                "black": 47.53,
+                "draws": 2.39,
+                "uci": "d7d6",
+                "averageRating": 1474
+            },
+            {
+                "total_games": 576,
+                "freq": 0.76,
+                "white": 61.81,
+                "black": 35.59,
+                "draws": 2.6,
+                "uci": "f8b4",
+                "averageRating": 1436
+            },
+            {
+                "total_games": 544,
+                "freq": 0.71,
+                "white": 51.29,
+                "black": 45.22,
+                "draws": 3.49,
+                "uci": "g8e7",
+                "averageRating": 1495
+            },
+            {
+                "total_games": 467,
+                "freq": 0.61,
+                "white": 52.46,
+                "black": 44.97,
+                "draws": 2.57,
+                "uci": "f8e7",
+                "averageRating": 1498
+            }
+        ],
+        "count": 1,
+        "total_game_move": 76116,
+        "name": {
+            "eco": "C00",
+            "name": "French Defense: Normal Variation"
+        }
+    }
+}

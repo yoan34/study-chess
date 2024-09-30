@@ -1,0 +1,120 @@
+{
+    "e2e4,d7d5,e4d5,d8d5,b1c3,d5a5": {
+        "moves": [
+            {
+                "total_games": 523173,
+                "freq": 45.7,
+                "white": 48.16,
+                "black": 45.94,
+                "draws": 5.9,
+                "uci": "d2d4",
+                "averageRating": 2308
+            },
+            {
+                "total_games": 290562,
+                "freq": 25.38,
+                "white": 45.92,
+                "black": 48.18,
+                "draws": 5.9,
+                "uci": "g1f3",
+                "averageRating": 2295
+            },
+            {
+                "total_games": 169439,
+                "freq": 14.8,
+                "white": 49.56,
+                "black": 45.02,
+                "draws": 5.41,
+                "uci": "f1c4",
+                "averageRating": 2302
+            },
+            {
+                "total_games": 94449,
+                "freq": 8.25,
+                "white": 54.89,
+                "black": 40.87,
+                "draws": 4.24,
+                "uci": "b2b4",
+                "averageRating": 2308
+            },
+            {
+                "total_games": 29625,
+                "freq": 2.59,
+                "white": 49.88,
+                "black": 43.47,
+                "draws": 6.65,
+                "uci": "g2g3",
+                "averageRating": 2319
+            },
+            {
+                "total_games": 9061,
+                "freq": 0.79,
+                "white": 44.38,
+                "black": 49.62,
+                "draws": 6.0,
+                "uci": "d2d3",
+                "averageRating": 2271
+            },
+            {
+                "total_games": 8388,
+                "freq": 0.73,
+                "white": 48.3,
+                "black": 45.43,
+                "draws": 6.27,
+                "uci": "h2h3",
+                "averageRating": 2291
+            },
+            {
+                "total_games": 6018,
+                "freq": 0.53,
+                "white": 48.99,
+                "black": 46.19,
+                "draws": 4.82,
+                "uci": "g1e2",
+                "averageRating": 2300
+            },
+            {
+                "total_games": 5437,
+                "freq": 0.47,
+                "white": 46.72,
+                "black": 46.99,
+                "draws": 6.29,
+                "uci": "f1e2",
+                "averageRating": 2285
+            },
+            {
+                "total_games": 3838,
+                "freq": 0.34,
+                "white": 49.87,
+                "black": 45.15,
+                "draws": 4.98,
+                "uci": "d1f3",
+                "averageRating": 2286
+            },
+            {
+                "total_games": 2567,
+                "freq": 0.22,
+                "white": 48.69,
+                "black": 45.27,
+                "draws": 6.04,
+                "uci": "a2a3",
+                "averageRating": 2291
+            },
+            {
+                "total_games": 2364,
+                "freq": 0.21,
+                "white": 42.94,
+                "black": 51.65,
+                "draws": 5.41,
+                "uci": "f1b5",
+                "averageRating": 2269
+            }
+        ],
+        "count": 0,
+        "total_game_move": 1144921,
+        "name": {
+            "eco": "B01",
+            "name": "Scandinavian Defense: Main Line"
+        }
+    }
+}

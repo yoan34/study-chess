@@ -1,0 +1,185 @@
+{
+    "e2e4,e7e5,f2f4,f7f6,f4e5,f6e5,d1h5,e8e7,h5e5,e7f7,f1c4,d7d5,c4d5,f7g6,h2h4,g8f6,h4h5,g6h6,d2d4": {
+        "moves": [
+            {
+                "total_games": 17,
+                "freq": 100.0,
+                "white": 88.24,
+                "black": 11.76,
+                "draws": 0.0,
+                "uci": "g7g5",
+                "averageRating": 1319
+            }
+        ],
+        "count": 1,
+        "total_game_move": 17,
+        "name": {
+            "eco": "C30",
+            "name": "King's Gambit"
+        }
+    },
+    "e2e4,c7c5,g1f3,d7d6,d2d4,c5d4,f3d4,g8f6,b1c3,a7a6,f2f3,b8c6,c1e3,e7e5,d4b3,g7g6,d1d2,c8e6,e1a1": {
+        "moves": [
+            {
+                "total_games": 53,
+                "freq": 55.21,
+                "white": 73.58,
+                "black": 20.75,
+                "draws": 5.66,
+                "uci": "f8g7",
+                "averageRating": 1433
+            },
+            {
+                "total_games": 14,
+                "freq": 14.58,
+                "white": 78.57,
+                "black": 21.43,
+                "draws": 0.0,
+                "uci": "e6b3",
+                "averageRating": 1499
+            },
+            {
+                "total_games": 6,
+                "freq": 6.25,
+                "white": 50.0,
+                "black": 50.0,
+                "draws": 0.0,
+                "uci": "d8c7",
+                "averageRating": 1516
+            },
+            {
+                "total_games": 6,
+                "freq": 6.25,
+                "white": 83.33,
+                "black": 16.67,
+                "draws": 0.0,
+                "uci": "f8e7",
+                "averageRating": 1537
+            },
+            {
+                "total_games": 6,
+                "freq": 6.25,
+                "white": 83.33,
+                "black": 16.67,
+                "draws": 0.0,
+                "uci": "a8c8",
+                "averageRating": 1532
+            },
+            {
+                "total_games": 5,
+                "freq": 5.21,
+                "white": 80.0,
+                "black": 20.0,
+                "draws": 0.0,
+                "uci": "b7b5",
+                "averageRating": 1511
+            },
+            {
+                "total_games": 2,
+                "freq": 2.08,
+                "white": 100.0,
+                "black": 0.0,
+                "draws": 0.0,
+                "uci": "d6d5",
+                "averageRating": 1472
+            },
+            {
+                "total_games": 1,
+                "freq": 1.04,
+                "white": 100.0,
+                "black": 0.0,
+                "draws": 0.0,
+                "uci": "h7h6",
+                "averageRating": 1456
+            },
+            {
+                "total_games": 1,
+                "freq": 1.04,
+                "white": 100.0,
+                "black": 0.0,
+                "draws": 0.0,
+                "uci": "h7h5",
+                "averageRating": 1451
+            },
+            {
+                "total_games": 1,
+                "freq": 1.04,
+                "white": 100.0,
+                "black": 0.0,
+                "draws": 0.0,
+                "uci": "d8d7",
+                "averageRating": 1500
+            },
+            {
+                "total_games": 1,
+                "freq": 1.04,
+                "white": 100.0,
+                "black": 0.0,
+                "draws": 0.0,
+                "uci": "a6a5",
+                "averageRating": 1507
+            }
+        ],
+        "count": 1,
+        "total_game_move": 96,
+        "name": {
+            "eco": "B90",
+            "name": "Sicilian Defense: Najdorf Variation"
+        }
+    },
+    "e2e4,e7e5,f2f4,b8c6,g1f3,g8f6,b1c3,e5f4,f1c4,f8c5,d2d4,c5b4,e4e5,f6h5,e1h1,b4c3,b2c3,e8h8,f3d2": {
+        "moves": [
+            {
+                "total_games": 7,
+                "freq": 38.89,
+                "white": 85.71,
+                "black": 14.29,
+                "draws": 0.0,
+                "uci": "g7g6",
+                "averageRating": 1541
+            },
+            {
+                "total_games": 4,
+                "freq": 22.22,
+                "white": 75.0,
+                "black": 25.0,
+                "draws": 0.0,
+                "uci": "d7d6",
+                "averageRating": 1532
+            },
+            {
+                "total_games": 4,
+                "freq": 22.22,
+                "white": 100.0,
+                "black": 0.0,
+                "draws": 0.0,
+                "uci": "d8g5",
+                "averageRating": 1516
+            },
+            {
+                "total_games": 2,
+                "freq": 11.11,
+                "white": 0.0,
+                "black": 100.0,
+                "draws": 0.0,
+                "uci": "d8h4",
+                "averageRating": 1507
+            },
+            {
+                "total_games": 1,
+                "freq": 5.56,
+                "white": 100.0,
+                "black": 0.0,
+                "draws": 0.0,
+                "uci": "a7a6",
+                "averageRating": 1351
+            }
+        ],
+        "count": 1,
+        "total_game_move": 18,
+        "name": {
+            "eco": "C30",
+            "name": "King's Gambit Declined: Queen's Knight Defense"
+        }
+    }
+}

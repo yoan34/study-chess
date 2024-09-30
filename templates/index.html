@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard.js with FastAPI</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/chessboard-1.0.0.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/styles.css') }}">
+    <script src="{{ url_for('static', path='js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', path='js/chessboard-1.0.0.js') }}"></script>
+    <script src="{{ url_for('static', path='js/api.js') }}"></script>
+    <script src="{{ url_for('static', path='js/manage_board.js') }}"></script>
+</head>
+<body>
+    <div id="board"></div>
+    <div id="container_form">
+        <div id="form_start_game">
+            <span>Choisissez une couleur:</span>
+            <button class="choice_color choice_color--white" onclick="startWhite()">White</button>
+            <button class="choice_color choice_color--black" onclick="startBlack()">Black</button>
+            <br><br>
+            <span>Choisir une catégorie :</span>
+            <label>
+                <input type="radio" name="category" value="0,1400"> 0-1400
+            </label>
+            <label>
+                <input type="radio" name="category" value="1400,1800"> 1400-1800
+            </label>
+            <label>
+                <input type="radio" name="category" value="1800,2200"> 1800-2200
+            </label>
+            <label>
+                <input type="radio" name="category" value="2200"> 2200+
+            </label>
+            <span>Sélectionnez le nombre de meilleurs coups acceptables:</span>
+            <label>
+                <input type="radio" name="top_play" value="1"> 1
+            </label>
+            <label>
+                <input type="radio" name="top_play" value="2"> 2
+            </label>
+            <label>
+                <input type="radio" name="top_play" value="3"> 3
+            </label>
+            <label>
+                <input type="radio" name="top_play" value="4"> 4
+            </label>
+        </div>
+    </div>
+    <div id="container">
+        <div id="container_opening_title">
+            <div id="opening_name">opening_name ???</div>
+            <button onclick="resetGame()" id="menu_btn">menu</button>
+            <button onclick="restartGame()" id="restart_btn">restart</button>
+        </div>
+        
+        <div id="message"></div>
+        <div id="moves"></div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <div id="modal-line"></div>
+              <button onclick="closeModal()" id="closeModalBtn">Fermer</button>
+            </div>  
+          </div>
+          <div id="top-play">
+            <div id="top-play1"></div>
+            <div id="top-play2"></div>
+        </div>
+    </div>
+    
+    
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'l' || event.key === 'L') {
+                restartGame();
+            }
+        });
+        const classMap = [
+        "sub_blue",   // i = 0
+        "sub_green",  // i = 1
+        "sub_green",  // i = 2
+        "sub_yellow", // i = 3
+        "sub_yellow", // i = 4
+        "sub_yellow", // i = 5
+        "sub_orange", // i = 6
+        "sub_orange", // i = 7
+        "sub_orange", // i = 8
+        "sub_red",    // i = 9
+        "sub_red",    // i = 10
+        "sub_red"     // i = 11
+    ];
+        let MOVES = ""
+        const resetGame = () => {
+            MOVES = "";
+            document.getElementById('board').style.display = 'none';
+            document.getElementById('form_start_game').style.display = 'flex';
+            document.getElementById("opening_name").textContent = "opening_name ???";
+            document.getElementById("opening_name").style.display = "none";
+            document.getElementById("menu_btn").style.display = "none";
+            document.getElementById("restart_btn").style.display = "none";
+            document.getElementById("message").textContent = "";
+            document.getElementById('moves').innerHTML = '';
+            board.start();
+            
+        }
+        const restartGame = () => {
+            MOVES = "";
+            document.getElementById("opening_name").textContent = "opening_name ???";
+            document.getElementById("message").textContent = "";
+            document.getElementById('moves').innerHTML = '';
+            startGame(board.orientation());
+            
+        }
+        
+        const createComputerLineMove = (move, moves) => {
+            
+            const l = MOVES.split(",").length;
+            let player = "W";
+            console.log("l", l)
+            if (l % 2 === 0) {
+                player = "B";
+            }
+            const elem = document.getElementById("moves");
+            const newDiv = document.createElement("div");
+
+            // Ajouter des classes en fonction du joueur
+            newDiv.classList.add("turn", player === "W" ? "turn--white" : "turn--black");
+            
+            const move_name = `<strong>${move.uci}</strong> &nbsp;&nbsp;`
+            const white_winrate = `W: ${move.white}% &nbsp;&nbsp;&nbsp;`
+            const black_winrate = `B: ${move.black}% &nbsp;&nbsp;&nbsp;`
+            const draw_rate = `D: ${move.draws}% &nbsp;&nbsp;&nbsp;`
+            const freq = `freq: ${move.freq}% &nbsp;&nbsp;&nbsp;`
+            const total_games = move.total_games > 1000 ? "1000+" : move.total_games.toString();
+            let moveInfo = `${move_name} ${freq} ${white_winrate} ${draw_rate} ${black_winrate} ${move.total_games} games.`;
+
+            newDiv.innerHTML = moveInfo;
+            elem.insertBefore(newDiv, elem.firstChild)
+        }
+        const createPlayerLineMove = (move, moves, play) => {
+            const l = MOVES.split(",").length;
+            let player = "W";
+            if (l % 2 === 0) {
+                player = "B";
+            }
+            const elem = document.getElementById("moves");
+            const containerLine = document.createElement("div");
+            containerLine.classList.add("container-line-top-play")
+            const elemTopPlay = document.createElement("div");
+            elemTopPlay.textContent = play+1;
+            elemTopPlay.classList.add("top-play", classMap[play])
+            const newDiv = document.createElement("div");
+            
+            // Ajouter des classes en fonction du joueur
+            newDiv.classList.add("turn", player === "W" ? "turn--white" : "turn--black");
+        
+            // Créer le contenu du mouvement
+            const move_name = `<strong>${move.uci}</strong> &nbsp;&nbsp;`;
+            const white_winrate = `W: ${move.white}% &nbsp;&nbsp;&nbsp;`;
+            const black_winrate = `B: ${move.black}% &nbsp;&nbsp;&nbsp;`;
+            const draw_rate = `D: ${move.draws}% &nbsp;&nbsp;&nbsp;`;
+            const freq = `freq: ${move.freq}% &nbsp;&nbsp;&nbsp;`;
+            const total_games = move.total_games > 1000 ? "1000+" : move.total_games.toString();
+            let moveInfo = `${move_name} ${freq} ${white_winrate} ${draw_rate} ${black_winrate} ${move.total_games} games.`;
+            newDiv.innerHTML = moveInfo;
+            
+            const hoverElement = createHoverElement(moves, play);
+            newDiv.appendChild(hoverElement);
+        
+            newDiv.addEventListener("mouseenter", () => {
+                hoverElement.style.display = 'flex';
+            });
+        
+            newDiv.addEventListener("mouseleave", () => {
+                hoverElement.style.display = 'none';
+            });
+        
+            containerLine.appendChild(newDiv);
+            containerLine.appendChild(elemTopPlay);
+            elem.insertBefore(containerLine, elem.firstChild);
+        }
+        const createHoverElement = (moves, play) => {
+            const hoverElement = document.createElement("div");
+            hoverElement.classList.add("hover-info");
+            let result = "";
+
+            // Parcourir le tableau jusqu'au 6ème élément
+
+            for (let i = 0; i < moves.length; i++) {
+                const subElement = document.createElement("div");
+                console.log(i, play)
+                const textBold = play === i ? "sub_text_bold": "sub_text_normal";
+                subElement.classList.add(textBold, classMap[i], "sub-info");
+                
+                const moveElem = document.createElement("div");
+                moveElem.classList.add("sub-info-text");
+                moveElem.textContent = `${i+1}) ${moves[i].uci}`
+                const moveFreq = document.createElement("div");
+                moveFreq.classList.add("sub-info-freq");
+                moveFreq.textContent = `frequence=${moves[i].freq}%`
+                const moveWhite = document.createElement("div");
+                moveWhite.classList.add("sub-info-text");
+                moveWhite.textContent = `W=${moves[i].white}%`;
+                const moveDraw = document.createElement("div");
+                moveDraw.classList.add("sub-info-text");
+                moveDraw.textContent = `D=${moves[i].draws}%`;
+                const moveBlack = document.createElement("div");
+                moveBlack.classList.add("sub-info-text");
+                moveBlack.textContent = `B=${moves[i].black}%`;
+                const moveRating = document.createElement("div");
+                moveRating.classList.add("sub-info-avg-elo");
+                moveRating.textContent = `${moves[i].averageRating} avg elo `;
+                const moveGame = document.createElement("div");
+                moveGame.classList.add("sub-info-count-game");
+                moveGame.textContent = `${moves[i].total_games} games`;
+                subElement.appendChild(moveElem);
+                subElement.appendChild(moveFreq);
+                subElement.appendChild(moveWhite);
+                subElement.appendChild(moveDraw);
+                subElement.appendChild(moveBlack);
+                subElement.appendChild(moveRating);
+                subElement.appendChild(moveGame);
+
+                hoverElement.appendChild(subElement);
+            }
+            return hoverElement;
+        }
+        
+
+        const getSelectedCategory = () => {
+            const radios = document.getElementsByName('category');
+            let selectedCategory = null;
+            for (const radio of radios) {
+                if (radio.checked) {
+                    selectedCategory = radio.value;
+                    break;
+                }
+            }
+            return selectedCategory;
+        }
+
+        const getSelectedTopPlay = () => {
+            const radios = document.getElementsByName('top_play');
+            let selectedTopPlay = null;
+            for (const radio of radios) {
+                if (radio.checked) {
+                    selectedTopPlay = radio.value;
+                    break;
+                }
+            }
+            return parseInt(selectedTopPlay);
+        }
+
+        const startWhite = () => {
+            const category = getSelectedCategory();
+            if (!category) {
+                alert("Veuillez choisir une catégorie.");
+                return;
+            }
+            const topPlay = getSelectedTopPlay();
+            if (!topPlay) {
+                alert("Veuillez choisir le nombre de meilleurs coups acceptables.");
+                return;
+            }
+            colorChoice = 'white';
+            startGame(colorChoice);
+        }
+
+        const startBlack = () => {
+            const category = getSelectedCategory();
+            if (!category) {
+                alert("Veuillez choisir une catégorie.");
+                return;
+            }
+            const topPlay = getSelectedTopPlay();
+            if (!topPlay) {
+                alert("Veuillez choisir le nombre de meilleurs coups acceptables.");
+                return;
+            }
+            colorChoice = 'black';
+            startGame(colorChoice);
+        }
+        function showModal() {
+            const modal = document.getElementById("myModal");
+            modal.style.display = "block";
+          }
+        
+          function closeModal() {
+            const modal = document.getElementById("myModal");
+            modal.style.display = "none";
+            const modalLine = document.getElementById("modal-line");
+            modalLine.innerHTML = '';
+            restartGame()
+          }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+{
+    "e2e4": {
+        "moves": [
+            {
+                "total_games": 481387006,
+                "freq": 38.76,
+                "white": 51.06,
+                "black": 45.13,
+                "draws": 3.81,
+                "uci": "e7e5",
+                "averageRating": 1632
+            },
+            {
+                "total_games": 240389859,
+                "freq": 19.36,
+                "white": 47.73,
+                "black": 48.48,
+                "draws": 3.79,
+                "uci": "c7c5",
+                "averageRating": 1732
+            },
+            {
+                "total_games": 135054365,
+                "freq": 10.87,
+                "white": 47.86,
+                "black": 48.3,
+                "draws": 3.84,
+                "uci": "e7e6",
+                "averageRating": 1714
+            },
+            {
+                "total_games": 130537328,
+                "freq": 10.51,
+                "white": 48.5,
+                "black": 47.68,
+                "draws": 3.82,
+                "uci": "d7d5",
+                "averageRating": 1689
+            },
+            {
+                "total_games": 88852913,
+                "freq": 7.15,
+                "white": 47.01,
+                "black": 48.97,
+                "draws": 4.02,
+                "uci": "c7c6",
+                "averageRating": 1729
+            },
+            {
+                "total_games": 45969133,
+                "freq": 3.7,
+                "white": 48.9,
+                "black": 47.41,
+                "draws": 3.69,
+                "uci": "d7d6",
+                "averageRating": 1721
+            },
+            {
+                "total_games": 44680375,
+                "freq": 3.6,
+                "white": 48.62,
+                "black": 47.73,
+                "draws": 3.65,
+                "uci": "g7g6",
+                "averageRating": 1705
+            },
+            {
+                "total_games": 28161115,
+                "freq": 2.27,
+                "white": 49.93,
+                "black": 46.64,
+                "draws": 3.44,
+                "uci": "b7b6",
+                "averageRating": 1680
+            },
+            {
+                "total_games": 23225887,
+                "freq": 1.87,
+                "white": 47.61,
+                "black": 48.83,
+                "draws": 3.56,
+                "uci": "g8f6",
+                "averageRating": 1747
+            },
+            {
+                "total_games": 17598705,
+                "freq": 1.42,
+                "white": 49.89,
+                "black": 46.56,
+                "draws": 3.55,
+                "uci": "b8c6",
+                "averageRating": 1678
+            },
+            {
+                "total_games": 3222345,
+                "freq": 0.26,
+                "white": 50.55,
+                "black": 45.99,
+                "draws": 3.46,
+                "uci": "a7a6",
+                "averageRating": 1663
+            },
+            {
+                "total_games": 2842922,
+                "freq": 0.23,
+                "white": 50.75,
+                "black": 46.32,
+                "draws": 2.93,
+                "uci": "f7f5",
+                "averageRating": 1702
+            }
+        ],
+        "count": 1,
+        "total_game_move": 1241921953,
+        "name": {
+            "eco": "B00",
+            "name": "King's Pawn Game"
+        }
+    }
+}

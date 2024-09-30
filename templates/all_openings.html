@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard.js with FastAPI</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/chessboard-1.0.0.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/styles.css') }}">
+    <script src="{{ url_for('static', path='js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', path='js/chessboard-1.0.0.js') }}"></script>
+</head>
+<body>
+    <div id="root">
+        <h2>Choisissez votre couleur :</h2>
+        <div class="option">
+            <input type="radio" id="white" name="color" value="White">
+            <label for="white">Blanc</label>
+        </div>
+        <div class="option">
+            <input type="radio" id="black" name="color" value="Black">
+            <label for="black">Noir</label>
+        </div>
+        <button onclick="validateChoice()">Valider</button>
+        <div id="container-boards"></div>
+    </div>
+    
+    <script>
+
+        const showBoard = (board, color) => {
+            let boardId = board[0].replace(/,/g, '-'); 
+            console.log(boardId) 
+            let orientation = undefined
+            if (color === 'white') {
+                orientation = 'white'
+            }
+            if (color === 'black') {
+                orientation = 'black'
+            }
+            var chessboard = Chessboard(boardId, {
+                orientation: orientation,
+                position: board[2],
+                showNotation: false,
+                pieceTheme: '/static/img/chesspieces/wikipedia/{piece}.png'
+              })
+        }
+        const createElementBoard = (board) => {
+            console.log("create board")
+            console.log(board)
+            let container = document.createElement("div")
+            container.classList.add("container-small-board")
+
+            let bodyBoard = document.createElement("div")
+            bodyBoard.classList.add("small-board")
+            let boardId = board[0].replace(/,/g, '-');  
+            bodyBoard.id = boardId
+
+            let elemInfo = document.createElement("div")
+            elemInfo.textContent = board[1]
+            elemInfo.classList.add("opening-name")
+
+            let elemInfo2 = document.createElement("div")
+            elemInfo2.textContent = board[0]
+            
+            
+            container.appendChild(bodyBoard)
+            container.appendChild(elemInfo)
+            container.appendChild(elemInfo2)
+            const root = document.getElementById("container-boards")
+            root.appendChild(container)
+
+
+        }
+        async function fetchWhiteBoards() {
+            try {
+                const response = await fetch(`http://127.0.0.1:8001/white_openings`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                });
+                const data = await response.json();
+                console.log(data)
+                return data
+            } catch (error) {
+                console.error('Erreur lors de la récupération des données:', error);
+            }
+        }
+        async function fetchBlackBoards() {
+            try {
+                const response = await fetch(`http://127.0.0.1:8001/black_openings`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                });
+                const data = await response.json();
+                console.log(data)
+                return data
+            } catch (error) {
+                console.error('Erreur lors de la récupération des données:', error);
+            }
+        }
+    
+        async function handleBoards(color) {
+            let boards = []
+            if (color === 'white') {
+                boards = await fetchWhiteBoards()
+            }
+            if (color === 'black') {
+                boards = await fetchBlackBoards()
+            }
+
+            boards.forEach(board => {
+                createElementBoard(board);
+            });
+            boards.forEach(board => {
+                showBoard(board, color)
+            })
+
+
+        }
+        const validateChoice = () => {
+            const selectedOption = document.querySelector('input[name="color"]:checked')
+            console.log(selectedOption.value)
+            if (selectedOption) {
+                if (selectedOption.value === 'White') {
+                    handleBoards('white')
+                }
+                if (selectedOption.value === 'Black') {
+                    handleBoards('black')
+                }
+            } else {
+                alert("Veuillez choisir une couleur !");
+            }
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "e2e4,e7e5,f2f4,f7f6,f4e5,f6e5,d1h5,e8e7,h5e5,e7f7,f1c4,d7d5,c4d5,f7g6,h2h4,g8f6,h4h5,g6h6,d2d4,g7g5,e5g5": {
+        "moves": [],
+        "count": 1,
+        "total_game_move": 0,
+        "name": {
+            "eco": "C30",
+            "name": "King's Gambit"
+        }
+    }
+}

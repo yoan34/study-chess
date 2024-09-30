@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard.js with FastAPI</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/chessboard-1.0.0.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/styles.css') }}">
+    <script src="{{ url_for('static', path='js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', path='js/chessboard-1.0.0.js') }}"></script>
+</head>
+<body>
+    <div id="root">
+        <h2>Choisissez votre couleur :</h2>
+        <div class="option">
+            <input type="radio" id="white" name="color" value="White">
+            <label for="white">Blanc</label>
+        </div>
+        <div class="option">
+            <input type="radio" id="black" name="color" value="Black">
+            <label for="black">Noir</label>
+        </div>
+        <button onclick="validateChoice()">Valider</button>
+    </div>
+    
+    <script>
+
+        const showBoard = (board, color) => {
+            let boardId = board.play.replace(/,/g, '-'); 
+            console.log(boardId) 
+            let orientation = undefined
+            if (color === 'white') {
+                orientation = 'white'
+            }
+            if (color === 'black') {
+                orientation = 'black'
+            }
+            var chessboard = Chessboard(boardId, {
+                orientation: orientation,
+                position: board.fen,
+                showNotation: false,
+                pieceTheme: '/static/img/chesspieces/wikipedia/{piece}.png'
+              })
+        }
+        const createElementBoard = (board) => {
+            console.log("create board")
+            console.log(board)
+            let container = document.createElement("div")
+            container.classList.add("container-small-board")
+            let bodyBoard = document.createElement("div")
+            bodyBoard.classList.add("small-board")
+            let boardId = board.play.replace(/,/g, '-');  
+            bodyBoard.id = boardId
+            let bodyInfo1 = document.createElement("div")
+            let containerBodyInfo = document.createElement("div")
+            containerBodyInfo.classList.add("container-body-info")
+            let bodyInfo0 = document.createElement("div")
+            bodyInfo0.textContent = board.name
+            bodyInfo0.classList.add("body-info-title")
+            let bodyInfo01 = document.createElement("div")
+            bodyInfo01.textContent = `last_play=${board.last_play}  total_play=${board.total_move} play=${board.play}`
+            bodyInfo01.classList.add("body-info-last_play")
+
+            bodyInfo1.innerHTML = `${board.top_move[0].uci} freq=${board.top_move[0].freq}% W:${board.top_move[0].white}% B:${board.top_move[0].black}% ${board.top_move[0].total_games} games`
+            let bodyInfo2 = document.createElement("div")
+            if (board.top_move.length > 1) {
+                bodyInfo2.innerHTML = `${board.top_move[1].uci} freq=${board.top_move[1].freq}% W:${board.top_move[1].white}% B:${board.top_move[1].black}% ${board.top_move[1].total_games} games`
+            } else {
+                bodyInfo2.innerHTML = "no other move"
+            }
+            
+            container.appendChild(bodyBoard)
+            containerBodyInfo.appendChild(bodyInfo0)
+            containerBodyInfo.appendChild(bodyInfo01)
+            containerBodyInfo.appendChild(bodyInfo1)
+            containerBodyInfo.appendChild(bodyInfo2)
+            container.appendChild(containerBodyInfo)
+
+
+
+            const root = document.getElementById("root")
+            root.appendChild(container)
+
+
+        }
+        async function fetchWhiteBoards() {
+            try {
+                const response = await fetch(`http://127.0.0.1:8001/boards_for_white`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                });
+                const data = await response.json();
+                console.log(data)
+                return data
+            } catch (error) {
+                console.error('Erreur lors de la récupération des données:', error);
+            }
+        }
+        async function fetchBlackBoards() {
+            try {
+                const response = await fetch(`http://127.0.0.1:8001/boards_for_black`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                });
+                const data = await response.json();
+                console.log(data)
+                return data
+            } catch (error) {
+                console.error('Erreur lors de la récupération des données:', error);
+            }
+        }
+    
+        async function handleBoards(color) {
+            let boards = []
+            if (color === 'white') {
+                boards = await fetchWhiteBoards()
+            }
+            if (color === 'black') {
+                boards = await fetchBlackBoards()
+            }
+
+            boards.forEach(board => {
+                createElementBoard(board);
+            });
+            boards.forEach(board => {
+                showBoard(board, color)
+            })
+
+
+        }
+        const validateChoice = () => {
+            const selectedOption = document.querySelector('input[name="color"]:checked')
+            console.log(selectedOption.value)
+            if (selectedOption) {
+                if (selectedOption.value === 'White') {
+                    handleBoards('white')
+                }
+                if (selectedOption.value === 'Black') {
+                    handleBoards('black')
+                }
+            } else {
+                alert("Veuillez choisir une couleur !");
+            }
+        }
+
+
+    </script>
+</body>
+</html>
